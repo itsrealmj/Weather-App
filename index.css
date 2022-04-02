@@ -6,8 +6,15 @@
 }
 body {
 	background-color: #0899ba;
-
 }
+#particles-js {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    
+}
+
 
 .main-container {
 	width: 80%;
@@ -116,7 +123,7 @@ form button:hover {
 	padding: .5rem;
 	position: absolute;
 	margin-top: 50%;
-	font-size: .9rem;
+	font-size: 1rem;
 	font-weight: bold;
 }
 .message-loaded {
@@ -126,7 +133,7 @@ form button:hover {
 	padding: .5rem;
 	position: absolute;
 	margin-top: 50%;
-	font-size: .9rem;
+	font-size: 1rem;
 	font-weight: bold;
 }
 
@@ -144,8 +151,9 @@ form button:hover {
 			width: 50%;
 			min-height: 500px;
 		}
-		.message-loaded{
-			margin-top: 20%;
+		.message-loaded, .error{
+			margin-top: 30%;
+			font-size: 2rem;
 		}
 		.display-container img {
 			transform: scaleX(2.0);
