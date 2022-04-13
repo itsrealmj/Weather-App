@@ -25,10 +25,10 @@ form.addEventListener('submit', function(event) {
 
 		// getting the weather vibe
 		let say = function() {
-			if (data.main.temp > 30) {
+			if (data.main.temp > 29) {
 				return "Beach is callin' 🏖️"
 			}else {
-				return "Coffee is good idea ☕"
+				return "Coffee is a good idea ☕"
 			}
 			
 		}
